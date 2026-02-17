@@ -53,7 +53,7 @@ class LoginScreen extends StatelessWidget {
                         hintText: 'example@gmail.com',
                         filled: true,
                         fillColor: Appcolor.textfrombackgroundcolor,
-        
+
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(20),
                         ),
@@ -78,7 +78,7 @@ class LoginScreen extends StatelessWidget {
                     ),
                   ],
                 ),
-        
+
                 SizedBox(height: 20),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
@@ -108,6 +108,7 @@ class LoginScreen extends StatelessWidget {
                     child: Text(
                       "Log In",
                       style: TextStyles.body.copyWith(
+                        color: Appcolor.scaffoldBackground,
                         fontWeight: FontWeight.w600,
                       ),
                     ),

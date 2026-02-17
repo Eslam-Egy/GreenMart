@@ -115,6 +115,7 @@ class SingupScreen extends StatelessWidget {
                     child: Text(
                       "Sing Up",
                       style: TextStyles.body.copyWith(
+                        color: Appcolor.scaffoldBackground,
                         fontWeight: FontWeight.w600,
                       ),
                     ),

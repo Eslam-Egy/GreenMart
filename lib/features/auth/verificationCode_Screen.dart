@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:green_nart_app/core/function/navigation.dart';
+import 'package:green_nart_app/features/Explore/main_screen.dart';
 import 'package:pinput/pinput.dart';
 import 'package:green_nart_app/core/constants/color.dart';
 import 'package:green_nart_app/core/styles/text_styles.dart';
@@ -113,10 +115,13 @@ class VerificationCodeScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20),
                         ),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        pushReplacment(context, MainScreen());
+                      },
                       child: Text(
                         "Confirm",
                         style: TextStyles.body.copyWith(
+                          color: Appcolor.scaffoldBackground,
                           fontWeight: FontWeight.w600,
                         ),
                       ),

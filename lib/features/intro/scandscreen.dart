@@ -33,11 +33,22 @@ class Scandscreen extends StatelessWidget {
               children: [
                 SvgPicture.asset(Appimage.carotwsvg),
                 SizedBox(height: 35),
-                Text("Welecome", style: TextStyles.headline),
-                Text("to our store", style: TextStyles.headline),
+                Text(
+                  "Welecome",
+                  style: TextStyles.headline.copyWith(
+                    color: Appcolor.scaffoldBackground,
+                  ),
+                ),
+                Text(
+                  "to our store",
+                  style: TextStyles.headline.copyWith(
+                    color: Appcolor.scaffoldBackground,
+                  ),
+                ),
                 Text(
                   "Ger your groceries in as fast as one hour",
                   style: TextStyles.button.copyWith(
+                    color: Appcolor.scaffoldBackground,
                     fontWeight: FontWeight.w400,
                   ),
                 ),
@@ -61,6 +72,7 @@ class Scandscreen extends StatelessWidget {
                         "Get Started",
                         style: TextStyles.body.copyWith(
                           fontWeight: FontWeight.w600,
+                          color: Appcolor.scaffoldBackground,
                         ),
                       ),
                     ),

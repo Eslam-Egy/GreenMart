@@ -54,7 +54,7 @@ class _YourNumberState extends State<YourNumber> {
                       ),
                     ),
                   ),
-        
+
                   SizedBox(height: 46),
                   SizedBox(
                     width: double.infinity,
@@ -72,6 +72,7 @@ class _YourNumberState extends State<YourNumber> {
                       child: Text(
                         "Next",
                         style: TextStyles.body.copyWith(
+                          color: Appcolor.scaffoldBackground,
                           fontWeight: FontWeight.w600,
                         ),
                       ),

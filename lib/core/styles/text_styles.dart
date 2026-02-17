@@ -5,34 +5,27 @@ class TextStyles {
   static TextStyle headline = TextStyle(
     fontSize: 48,
     fontWeight: FontWeight.w600,
-    color: Appcolor.scaffoldBackground,
+    color: Appcolor.textPrimary,
   );
 
   static TextStyle title = TextStyle(
     fontSize: 26,
     fontWeight: FontWeight.w600,
-    color: Appcolor.scaffoldBackground,
+    color: Appcolor.textPrimary,
   );
 
   static TextStyle subtittle = TextStyle(
     fontSize: 18,
 
-    color: Appcolor.scaffoldBackground,
+    color: Appcolor.textPrimary,
   );
 
-  static TextStyle body = TextStyle(
-    fontSize: 16,
-
-    color: Appcolor.scaffoldBackground,
-  );
+  static TextStyle body = TextStyle(fontSize: 16, color: Appcolor.textPrimary);
 
   static TextStyle button = TextStyle(
     fontSize: 14,
-    color: Appcolor.textSecondary,
+    color: Appcolor.textPrimary,
   );
 
-  static TextStyle small = TextStyle(
-    fontSize: 12,
-    color: Appcolor.scaffoldBackground,
-  );
+  static TextStyle small = TextStyle(fontSize: 12, color: Appcolor.textPrimary);
 }
